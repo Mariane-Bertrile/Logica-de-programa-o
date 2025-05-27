@@ -1,0 +1,24 @@
+function autenticação(usuario,senha){
+if (usuario == "Mary" && senha == "123") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Gab" && senha == "126") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Hellen" && senha == "876") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Daiana" && senha == "2324") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Valentina" && senha == "3765") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Euller" && senha == "2808") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Sara" && senha == "1287") {
+    console.log("Login efetuado com sucesso")
+    }else if (usuario == "Tony" && senha == "7651") {
+    console.log("Login efetuado com sucesso")
+} else {
+    console.log("Login incorreto")
+}
+}
+let usuario = prompt("Digite seu usuario:")
+let senha = prompt("Digite sua senha:")
+autenticação(usuario, senha)
