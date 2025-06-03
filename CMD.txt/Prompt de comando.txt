@@ -1,0 +1,33 @@
+  Prompt de comando 
+
+1.
+1. cd..
+2. cd..
+
+2.
+1. mkdir ExerciciosCMD
+2. cd ExerciciosCMD
+3. mkdir imagens 
+4. mkdir documentos 
+5. cd documentos 
+6. echo>lista.txt
+7. echo>notas.txt
+8. start notas.txt “Primeira nota 10”
+9. cd.. cd..
+10.echo>vazio.txt
+
+3.
+1. del vazio.txt
+2. cd ExerciciosCMD
+3. del imagens 
+
+4.
+1. del lista.txt
+2.echo> tarefas.txt 
+3. Ren documentos arquivos
+
+5.
+1. move tarefas.txt c:\ExerciciosCMD\backup
+2. echo> Organização 
+3. cd Organização 
+4. move arquivos c:\ExerciciosCMD\Organização
