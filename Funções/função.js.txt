@@ -1,0 +1,41 @@
+let numero1 = Number(prompt("Digite o primeiro número:"));
+let numero2 = Number(prompt("Digite o segundo número:"));
+let operacao = prompt("Escolha uma operação (soma, subtração, multiplicação, divisão):");
+
+// Funções das operações
+function soma(a, b) {
+    let resultado = a + b;
+    console.log("O resultado é", resultado);
+}
+
+function subtracao(a, b) {
+    let resultado = a - b;
+    console.log("O resultado é", resultado);
+}
+
+function multiplicacao(a, b) {
+    let resultado = a * b;
+    console.log("O resultado é", resultado);
+}
+
+function divisao(a, b) {
+    if (b !== 0) {
+        let resultado = a / b;
+        console.log("O resultado é", resultado);
+    } else {
+        console.log("Erro: divisão por zero não é permitida.");
+    }
+}
+
+// Verificação da operação
+if (operacao === "soma") {
+    soma(numero1, numero2);
+} else if (operacao === "subtração") {
+    subtracao(numero1, numero2);
+} else if (operacao === "multiplicação") {
+    multiplicacao(numero1, numero2);
+} else if (operacao === "divisão") {
+    divisao(numero1, numero2);
+} else {
+    console.log("Operação inválida. Tente novamente.");
+}

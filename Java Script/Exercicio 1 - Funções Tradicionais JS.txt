@@ -1,0 +1,178 @@
+1- 
+function saudacao() {
+    console.log(“Olá mundo”)
+}
+
+saudacao() 
+
+2- 
+
+function mostrarNomecompleto() {
+    console.log(“Mariane Bertrile E. Haussma”)
+}
+
+mostrarNomecompleto() 
+
+3- 
+
+function idade() {
+    console.log("16 anos")
+}
+
+idade()
+
+4- 
+let numero1 = Number("14")
+let numero2 = Number("10")
+function somarDoisNumeros(numero1, numero2) {
+    let resultado = (numero1 + numero2)
+    console.log("O resultado é ", resultado)
+}
+
+somarDoisNumeros(14, 10) 
+
+5- 
+function mostrarMensagem() {
+    console.log("Cada passo, por menor que seja, te aproxima de onde você quer estar. Acredite no poder do seu progresso.")
+}
+
+mostrarMensagem() 
+
+6- 
+function mostrarData() {
+    console.log("Hoje é dia 06 de maio de 2025")
+}
+
+mostrarData() 
+
+7- 
+function mostrarCidade() {
+    console.log("Ferraz de Vasconcelos")
+}
+
+mostrarCidade()
+
+8-
+let nome = (prompt("Digite seu nome: "))
+function saudação() {
+    console.log("Seja bem vindo (a) " + nome)
+}
+
+saudação()
+
+
+9- 
+
+let numero1 = Number(prompt("Digite o primeiro numero: "))
+let numero2 = Number(prompt("Digite o segundo numero: "))
+function subtrairDoisNumeros(numero1, numero2) {
+    let resultado = (numero1 - numero2)
+    console.log("O resultado é ", resultado)
+}
+
+subtrairDoisNumeros(numero1, numero2) 
+
+10- 
+function animalFavorito() {
+    console.log("O meu animal favorito é o coala")
+}
+
+animalFavorito()
+
+11-
+function aprendizado() {
+    console.log("Estou aprendendo JavaScript!")
+}
+
+aprendizado()
+
+
+
+
+
+
+
+
+12- 
+let numero1 = Number(prompt("Digite o primeiro numero: "))
+function triplicar() {
+    let resultado = (numero1 * 3 )
+    console.log("O resultado é ", resultado)
+}
+
+triplicar()
+
+
+13- 
+let nome = (prompt("Digite o seu nome: "))
+let idade = (prompt("Digite a sua idade: "))
+function identificação() {
+    console.log("Nome: ", nome,"Idade: ", idade)
+}
+
+identificação()
+
+
+
+
+14- 
+function numeração() {
+    console.log("1,2,3,4,5,6,7,8,9,10")
+}
+
+numeração()
+
+15- 
+
+function aulas() {
+    console.log("Aula de função inicial")
+}
+
+aulas()
+
+16- 
+let numero =prompt("Digite um numero:")
+function numeros() {
+    console.log("Você digitou o numero" , numero)
+}
+
+numeros()
+
+
+
+
+17- 
+function curso() {
+    console.log("Curso de Analise de desenvolvimento de sistemas" )
+}
+
+curso()
+
+18- 
+
+function chamada() {
+    console.log("Mariaaaaaaaaaane")
+}
+
+chamada()
+
+19- 
+let cor = (prompt("Digite sua cor favorita:"))
+
+function cores() {
+    console.log("Sua cor favorita é ", cor)
+}
+
+cores()
+
+20-
+let país = (prompt("Qual país você mora?"))
+
+function moradia() {
+    console.log("Você mora em ", país)
+}
+
+moradia()
+
+
+

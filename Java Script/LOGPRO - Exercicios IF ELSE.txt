@@ -1,0 +1,159 @@
+1- let idade = prompt("Digite sua idade: ")
+if (idade < 18) {
+    console.log("Você é menor de idade")
+}
+else {
+    console.log("Você é de maior")
+}
+
+2-
+ 1 let horario = "10hrs"
+2 if (horario == "<=6hrs"){
+3     console.log("Bom dia ")
+4 }
+5 else if (horario == "<= 12hrs"){
+6     console.log("Boa tarde")
+7 }
+8 else if (horario == "<=18hrs"){
+9     console.log("Boa noite")
+10 }
+
+
+3- 
+1 let idade = "14"
+2 if (idade = ">=16"){
+3     console.log("Você é menor de idade")
+4 }
+5 else if (idade = "<= 17"){
+6     console.log("Você é permitido")
+7 }
+
+
+4- 
+1 let temperatura = prompt("Digite a temperatura:")
+2 if (temperatura > 30) {
+3     console.log("Muito quente")
+4 }
+5 else if (temperatura >= 20 && temperatura <= 30) {
+6     console.log("Calor")
+7 } else {
+8     console.log("Frio ")
+9 }
+
+6-
+
+1 let palavra = prompt("Digite a palavra")
+2 if (palavra === "Felicidade"){
+3     console.log("Palavra correta")
+4 }
+5 else {
+6     console.log("Palavra incorreta")
+7 }
+
+
+7- 
+let moedas = prompt("Digite a quantidade de moedas:")
+
+if (moedas < 10) {
+    console.log("Poucas moedas");
+} else if (moedas >= 10 && moedas <= 20) {
+    console.log("Quantidade média");
+} else {
+    console.log("Muitas moedas");
+}
+
+8- 
+let temperatura = prompt("Digite a temperatura em ºC:");
+
+if (temperatura > 30) {
+    console.log("Muito quente");
+} else if (temperatura >= 20 && temperatura <= 30) {
+    console.log("Calor");
+} else {
+    console.log("Frio");
+}
+
+
+9-
+
+let numero = prompt("Digite o numero:")
+
+if (numero > 0){
+    console.log("Positivo")
+}
+else if (numero < 0){
+    console.log("Negativo")
+}
+
+10- 
+let nota = 7
+if(nota >= 8) {
+    console.log("Aprovado com boa nota")
+}
+else
+if(nota >= 8) {
+    console.log("Aprovado")
+}
+else{
+    console.log("Reprovado")
+}
+
+11- 
+let animal = prompt("Digite um animal:")
+
+if (animal === "cachorro" || animal === "gato" || animal === "pássaro" || animal === "passaro") {
+    console.log("Animal listado");
+} else {
+    console.log("Animal não listado");
+}
+
+12- 
+let dia = prompt("Digite um dia da semana:")
+
+if(dia === "domingo" || dia === "sabado") {
+    console.log("Final de semana")
+}
+else {
+    console.log("dia util ")
+}
+
+13- let experiencia = 2
+if(nota = 1) {
+    console.log("Experiente")
+}
+else
+if(nota >= 2) {
+    console.log("iniciante")
+}
+
+
+14- let numero = prompt("Digite um número:")
+
+if (numero >= 10 && numero <= 20) {
+    console.log("Dentro do intervalo");
+} else {
+    console.log("Fora do intervalo")
+}
+
+15- 
+let idade = prompt("Digite sua idade:")
+
+if (idade >= 18) {
+    console.log("Pode tirar carteira ");
+} else {
+    console.log("Não pode tirar carteira")
+}
+
+16- 
+
+let idade = prompt("Digite o numero:")
+
+if (idade > 0){
+    console.log("Positivo")
+}
+else if (idade < 0){
+    console.log("Negativo")
+}
+else if (idade == 0) {
+    console.log("Zero")
+}

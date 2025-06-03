@@ -1,0 +1,44 @@
+let comando = prompt("Digite um comando cmd:")
+let parametro = prompt ("Digite um parametro (opcional)")
+  switch (comando){
+  case "ls":
+  if (parametro = "-a"){
+  console.log("ls -a: Lista todos os arquivos, inclusive ocultos.")
+ } else {
+      console.log("ls serve para verificar se o arquivo esta dentro do diretório")
+ }
+  break
+  case "mkdir":
+  console.log("mkdir serve para criar diretórios")
+  break
+   case "clear":
+  console.log("clear serve para apagar tela de comando")
+  break
+   case "cat":
+  console.log("cat serve para mostrar o que possui no arquivo")
+  break
+   case "rm -R":
+  console.log("rm -R serve para remover um arquivo")
+  break
+   case "echo >":
+  console.log("echo > serve para criar arquivo")
+  break
+   case "cd":
+  if (parametro === ".."){
+       console.log("cd .. serve para voltar em um diretório")
+  }else {
+      console.log("cd serve para entrar para um diretório")
+  }
+  break
+   case "rmdir":
+  console.log("rmdir serve para apagar pasta")
+  break
+  case "console.log":
+      console.log("console.log é um codigo do java script, que serve para ver oque tem dentro de uma variavél")
+      break
+      case "soma no java":
+      console.log("para somar no javascript é necessario (Dado1 + Dado2), e para fazer outras contas, só muda o sinal, como por exemplo: \n * para multiplicar \n / para divisão \n - para subtração \n ** para exponente ")
+      break
+      case "dicas":
+     console.log (" essas dicas servem para o javascript: \n 1- evite usar abreviações, como por exemplo: use Chat Usuario = Mary, ao invés de Chat usr = Mary \n 2- o nom da variavél não pode ter números no começo, por exemplo: Teste07, ao invés de 07Teste \n 3- não use nomes genéricos, sempre especifique" )
+}

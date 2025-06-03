@@ -1,0 +1,339 @@
+1-
+
+
+
+2- 
+let dia = prompt ("Escolha um número 1,2,3,4,5,6,7: ")
+switch (dia){ 
+    case "1":
+    console.log ("Segunda")
+    break
+    
+    case "2":
+    console.log ("Terça")
+    break
+    
+    case "3":
+    console.log ("Quarta")
+    break
+    
+    case "4":
+    console.log ("Quinta")
+    break
+    
+    case "5":
+    console.log ("Sexta")
+    break
+    
+    case "6":
+    console.log ("Sabado")
+    break
+    
+    case "7":
+    console.log ("Domingo")
+    break
+    
+    default:
+    console.log = "Dia não correspondido"
+}
+
+
+
+3- let transporte = prompt ("Escolha um número 1,2,3,4,5,6,7: ")
+switch (transporte){ 
+    case "1":
+    console.log ("Moto")
+    break
+    
+    case "2":
+    console.log ("Caminhão")
+    break
+    
+    case "3":
+    console.log ("Carro")
+    break
+    
+    case "4":
+    console.log ("Bicicleta")
+    break
+    
+    case "5":
+    console.log ("Avião")
+    break
+    
+    case "6":
+    console.log ("Van")
+    break
+    
+    case "7":
+    console.log ("Onibus")
+    break
+    
+    default:
+    console.log = "Dia não correspondido"
+}
+
+
+4-
+let Urgência = prompt ("Escolha um número 1,2,3,4: ")
+switch (Urgência){ 
+    case "1":
+    console.log ("Urgência máxima")
+    break
+    
+    case "2":
+    console.log ("Urgência alta")
+    break
+    
+    case "3":
+    console.log ("Urgência média")
+    break
+    
+    case "4":
+    console.log ("Urgência baixa")
+    break
+    
+    
+    default:
+    console.log  ("Não é urgente!")
+}
+    
+
+5-
+ let fasesLua = prompt ("Escolha um número dia do mês 1-7, 8-14, 15-21,29-30: ")
+switch (fasesLua){ 
+    case "1-7":
+    console.log ("Lua nova")
+    break
+    
+    case "8-14":
+    console.log ("Lua quarto crescente")
+    break
+    
+    case "15-21":
+    console.log ("Lua cheia")
+    break
+    
+    case "29-30":
+    console.log ("Lua nova novamente")
+    break
+    
+    
+    default:
+    console.log  ("Dia não existente")
+}
+
+6- 
+let categoriasCarros = prompt (" Uno\n Gol \n Celta\n Hilux\n Compass\n Creta \n Scania\n F-350;\n Actros \n Escolha seu carro: ")
+switch (categoriasCarros){ 
+    case "Uno":
+    console.log ("Seu carro está na categoria de compacto")
+    break
+    
+    case "Gol":
+    console.log ("Seu carro está na categoria de compacto")
+    break
+    
+    case "Celta":
+    console.log ("Seu carro está na categoria de compacto")
+    break
+    
+    case "Hilux":
+    console.log ("Seu carro está na categoria de SUV")
+    break
+    
+    case "Compass":
+    console.log ("Seu carro está na categoria de SUV")
+    break
+    
+    case "Creta":
+    console.log ("Seu carro está na categoria de SUV")
+    break
+    
+    case "Scania":
+    console.log ("Seu carro está na categoria de caminhão")
+    break
+    
+    case "F-350":
+    console.log ("Seu carro está na categoria de caminhão")
+    break
+    
+    case "Actros":
+    console.log ("Seu carro está na categoria de caminhão")
+    break
+    
+    default:
+    console.log ("Esse carro não está inserido em nenhuma categoria, escolha outro!")
+
+
+7-
+let tempo= prompt (" Quantas horas você deixou o carro no estacionamento? ")
+let tarifa
+switch (tempo){ 
+    case "1":
+    case "2" :
+    case "3":    
+    tarifa = 10
+    break
+    case "4":
+    case "5":
+    case "6":
+    tarifa = 20
+    break
+    default:
+    if (tempo > 6) {
+        tarifa = 20
+    } else {
+        console.log("Tempo inválido")
+    }
+}
+ 
+    
+   
+
+8- 
+ let dificuldadeJogos = prompt (" 1\n 2\n 3\n Qual é o nivél da dificuldade? ")
+switch (dificuldadeJogos){ 
+    case "1":
+    console.log ("Muito dificil")
+    break
+    
+    case "2":
+    console.log ("Mediana")
+    break
+    
+    case "3":
+    console.log ("Pouco dificil")
+    break
+    default:
+    console.log("Outro nivél de dificuldade")
+}
+
+
+9-
+let academia = prompt (" aula de yoga \n musculação\n personal trainer \n Qual desses serviços você deseja?")
+switch (academia){ 
+    case "aula de yoga":
+    console.log ("Ótimo, promove equilíbrio físico e mental, reduzindo o estresse e melhorando a flexibilidade.")
+    break
+    
+    case "musculação":
+    console.log ("Ótimo, desenvolve força, resistência e saúde geral por meio de treinos focados.")
+    break
+    
+    case "personal trainer":
+    console.log ("Ótimo, oferece orientação personalizada para atingir metas de saúde com eficiência.")
+    break
+    default:
+    console.log("Outro serviço")
+}
+    
+
+10- 
+let ingressosCinema = prompt (" Estudante \n Meia entrada \n Inteira \n A qual publico você se encaixa?")
+switch (ingressosCinema){ 
+    case "Estudante":
+    console.log ("Com a sua carteirinha de estudante, é possivél pagar 14.50 no ingresso.")
+    break
+    
+    case "Meia entrada":
+    console.log ("Com o seu documento comprovanto o motivo da meia entrada, é possivél pagar 15.00 no ingresso")
+    break
+    
+    case "Inteira":
+    console.log ("Você ira pagar 30.00 no ingresso")
+    break
+    default:
+    console.log("Procurar o balcão de atendimento para sanar as dúvidas.")
+}
+
+
+11-
+
+ let exercicios = prompt ("Criança ou adolecente\n Adultos\n Idoso\n A qual faixa etária você pertence?")
+switch (exercicios){ 
+    case "Criança ou adolecente":
+    console.log ("Exercícios leves a moderados, focando em atividades lúdicas, esportes e fortalecimento básico.")
+    break
+    
+    case "Adultos":
+    console.log ("Maior capacidade para exercícios moderados a intensos, como musculação, corridas ou treinos funcionais, dependendo do condicionamento.")
+    break
+    
+    case "Idoso":
+    console.log ("Prioridade para exercícios leves que mantenham mobilidade, força e equilíbrio, como tai chi, pilates, hidroginástica e caminhadas.")
+    break
+    default:
+    console.log("Consultar um profissional.")
+}
+    
+
+12-
+let cursosTecnologia = prompt (" Front-end\n Back-end \n Mobile\n Digite qual curso de tecnologia deseja cursar, para obter mais informações do que será aprendido.")
+switch (cursosTecnologia){ 
+    case "Front-end":
+    console.log ("No Front-end, você vai criar a parte visível de sites e aplicativos, usando ferramentas como HTML, CSS e JavaScript, além de frameworks como React. O objetivo é construir interfaces bonitas e funcionais, focadas na experiência do usuário: ")
+    break
+    
+    case "Back-end":
+    console.log ("No Back-end, descubra como funciona a parte interna dos sistemas, responsável pela lógica e armazenamento de dados. Você aprenderá a usar linguagens como Python, Node.js ou PHP, criar bancos de dados e conectar tudo ao Front-end.")
+    break
+    
+    case "Mobile":
+    console.log ("No Mobile, desenvolva aplicativos para celulares e tablets, seja para Android ou iOS. Explore ferramentas como React Native ou Flutter e crie apps rápidos e eficientes, que funcionam em múltiplas plataformas.")
+    break
+    default:
+    console.log("Consultar a secretaria da escola fornecedora do curso para mais informações.")
+}
+
+13- 
+let níveisHabilidade = prompt (" Infantil (até 12 anos) \n Juvenil (13 a 18 anos) \n Adulto jovem (19 a 29 anos) \n Adulto médio (30 a 39 anos) \n Veteranos (40+ anos) \n Para saber os níveis de habilidade em esportes com base na idade, digite em qual público você se encaixa: ")
+
+switch (níveisHabilidade){
+    
+case "Juvenil (13 a 18 anos)":
+console.log ("Aperfeiçoa técnica e desenvolve físico.")
+break
+
+case "Adulto jovem (19 a 29 anos)":
+console.log ("Alcança o auge da performance.")
+break
+
+case "Adulto médio (30 a 39 anos)":
+console.log ("Mantém a forma com foco em estratégia.")
+break
+
+case "Veteranos (40+ anos)":
+console.log ("Pratica para saúde, com ritmo adaptado.")
+
+    break
+    default:
+    console.log("Consultar o médico para mais informações.")
+}
+
+14- 
+let matematica = prompt (" Basico \n Intermediario \n Avançado \n Qual opção você deseja saber mais ?")
+
+switch (matematica){
+    
+case "Basico":
+console.log ("São problemas simples que trabalham conceitos fundamentais, como soma, subtração, multiplicação, divisão, frações e formas geométricas. Ideal para iniciantes.")
+break
+
+case "Intermediario":
+console.log ("Exigem mais raciocínio e envolvem equações de 1º grau, proporções, porcentagens, cálculo de área e perímetro, além de introduções a estatísticas e probabilidade.")
+break
+
+case "Avançado":
+console.log ("Focado em conceitos complexos, como equações de 2º grau, logaritmos, exponenciais, trigonometria, funções avançadas e cálculo diferencial e integral.")
+break
+
+    break
+    default:
+    console.log("Não existe essa opção.")
+}
+
+
+
+
+
